@@ -35,7 +35,7 @@
             echo "<script>document.location.href = 'orders.php';</script>";   
         } else {
             echo "<script>alert('Woops! Terjadi kesalahan.')</script>";
-            echo "<script>document.location.href = 'cart2.php';</script>";
+            echo "<script>document.location.href = 'cart.php';</script>";
         }
         
 }

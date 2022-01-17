@@ -54,17 +54,7 @@ if(isset($_GET["action"]))
 	}
 }
 
-//If you have use Older PHP Version, Please Uncomment this function for removing error 
 
-/*function array_column($array, $column_name)
-{
-	$output = array();
-	foreach($array as $keys => $values)
-	{
-		$output[] = $values[$column_name];
-	}
-	return $output;
-}*/
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -167,7 +157,7 @@ if(isset($_GET["action"]))
                         <dd class="text-right text-danger ml-3">FREE</dd>
                     </dl>
                    
-                    <a href="payment.php" class="btn  btn-success btn-square btn-main mt-2" data-abc="true">Continue Shopping</a>
+                    <a href="payment.php" class="btn  btn-success btn-square btn-main mt-2" data-abc="true">Checkout</a>
                     <a href="home.php" class="btn  btn-Dark btn-square btn-main mt-2" data-abc="true">Continue Shopping</a>
                 </div>
             </div>
@@ -175,14 +165,4 @@ if(isset($_GET["action"]))
     </div>
 </div>
 </body>
-<script>
-    function deleteData(str){
-        var id = str;
-        $.ajax({
-            type: "POST",
-            url : "purchase.php?action=del",
-            data : "id_order" + id
-        });
-    }    
-</script>
 </html>

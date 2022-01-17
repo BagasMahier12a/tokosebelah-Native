@@ -39,7 +39,7 @@
                 <div class="d-flex flex-column align-items-center text-center p-3 py-5">
                    <img class="rounded-circle mt-5" <?php echo 'src="data:image;base64,'.$gallery['avatar'].'"';?> width="90">
                     <span class="font-weight-bold" style="color:white;margin-top:20px;margin-bottom:20px;" ><?=$gallery['username'] ?></span>
-                    <span class="text-light-50"style="text-decoration:none;color:white;" ><a style="text-decoration:none;color:white;" class="font-weight-bold" href="orders.php">My Order</a></span>    
+                    <a style="text-decoration:none;color:white" class="a font-weight-bold" href="orders.php">My Order</a>
                 </div>
             </div>
             <div class="col-md-8">
@@ -64,8 +64,8 @@
                         <div class="col-md-6"><input type="text" class="form-control" name="no_hp" value="<?=$gallery['no_hp'] ?>" placeholder="telephone"></div>
                     </div>
                     <div class="row mt-3">
-                        <div class="col-md-6"><input type="password" name="password" class="form-control" placeholder="password"></div>
-                        <div class="col-md-6"><input type="file" class="form-control" name="my_image"></div>
+                        <div class="col-md-6"><input type="password" name="password" class="form-control" placeholder="password" required></div>
+                        <div class="col-md-6"><input type="file" class="form-control" name="my_image" value="<?=$gallery['avatar'] ?>"></div>
                     </div>
                     <div class="mt-5 text-right"><button class="btn profile-button" style="color:white;" name="submit">Save Profile</button></div>
                 </div>
