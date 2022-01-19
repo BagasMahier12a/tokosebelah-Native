@@ -1,15 +1,11 @@
 # tokosebelah-Native
-PHP Native and AJAX QUERY
+- [x] PHP 
+- [x] AJAX QUERY
+- [x] Bootstrap
+- [x] HTML
+- [x] Mysql 
 
 ## Developed By
-
-Arga Bimantara 
-Audia Shafarina Justy
-Bagas Alfito Prismawan
-Ditya Ilmi Rizqi
-Fitri Raihan Safira Sinaga
-Sultan Kautsar
-
 # Kelompok 3
 ~ Arga Bimantara - [Arga Bimantara](https://docs.google.com/document/d/1KUKkCxtEM4TTcuJt5m1MUwjWueljTN1EzOSpkvXbOcU/edit?usp=sharing)<br>
 ~ Audia Shafarina Justy - [Audia Shafarina Justy](https://github.com/odiee12/front-end.git)<br>
