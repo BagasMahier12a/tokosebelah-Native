@@ -26,7 +26,7 @@ if(mysqli_num_rows($result) > 0)
                  <div class="card-body" style="width: 18rem">
                       <h5 class="card-title" style="font-size:15px;" >'.$gallery['produk_name'].'</h5>
                       <h5 class="card-title" style="font-size:14px;">RP. '.number_format($gallery['price']).'</h5>
-                      <a href="addto2.php?id='.$gallery['id_produk'].'" class="btn btn buttonproduk" style="background:#DA7E5C;color:white;">Add to Cart</a>
+                      <a href="./User/addto.php?id='.$gallery['id_produk'].'" class="btn btn buttonproduk" style="background:#DA7E5C;color:white;">Add to Cart</a>
             </div>
             </div>
   ';

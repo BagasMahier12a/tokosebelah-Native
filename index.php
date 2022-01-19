@@ -45,13 +45,13 @@
         while ($gallery = mysqli_fetch_assoc($res)) {  ?>
         <div class="post bg-dark text-white">
             <div class="image">
-            <a href="addto.php?id=<?=$gallery['id_produk']?>"><img <?php echo 'src="data:image/jpeg;base64,'.base64_encode( $gallery['image']).'"';?> alt="bag" height="300" width="500"></a>
+            <a href="./User/addto.php?id=<?=$gallery['id_produk']?>"><img <?php echo 'src="data:image/jpeg;base64,'.base64_encode( $gallery['image']).'"';?> alt="bag" height="300" width="500"></a>
             </div>
             <div class="content">
                 <div class="sold" style="margin-top:19px"></div>
-                <a href="addto.php?id=<?=$gallery['id_produk']?>" class="title" style="margin-bottom:302px;"><?=$gallery['produk_name']?></a>
+                <a href="./User/addto.php?id=<?=$gallery['id_produk']?>" class="title" style="margin-bottom:302px;"><?=$gallery['produk_name']?></a>
                 <h3>RP. <?=number_format($gallery['price'])?></h3>
-                <a href="addto.php?id=<?=$gallery['id_produk']?>" class="tbl-add">Add to Cart</a>
+                <a href="./User/addto.php?id=<?=$gallery['id_produk']?>" class="tbl-add">Add to Cart</a>
             </div>
         </div>
         <?php } }?>              
